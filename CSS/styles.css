@@ -1,3 +1,9 @@
+/*font-family: 'Lacquer', ;
+font-family: 'Trade Winds', ;
+font-family: 'Dancing Script', ;
+font-family: 'Indie Flower', ;
+font-family: 'Inconsolata', ;*/
+
 body{
   margin: 0;
   background-color: #40514E;
@@ -5,11 +11,21 @@ body{
 }
 h1{
   margin: 0;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Lacquer', cursive;
+}
+p{
+  font-family: 'Lacquer';
 }
 
-#underline{
-  text-decoration: underline overline;
+
+
+.myPic{
+  display: block;
+  max-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 100%
 }
 
 .topContainer{
@@ -29,15 +45,15 @@ h1{
 
 .topCloud{
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 10em;
+  top: 7%;
 }
 
-
-
-
 .bottomCloud{
-  position:absolute;
-  left: 250px;
-  bottom: 300px;
+  position: absolute;
+  left: 10em;
+  margin-top: 3%;
+}
+#underline{
+  text-decoration: underline overline;
 }
