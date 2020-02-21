@@ -2,7 +2,8 @@
 font-family: 'Trade Winds', ;
 font-family: 'Dancing Script', ;
 font-family: 'Indie Flower', ;
-font-family: 'Inconsolata', ;*/
+font-family: 'Inconsolata',
+font-family: 'Raleway' ;;*/
 
 body{
   margin: 0;
@@ -11,7 +12,7 @@ body{
 }
 h1{
   margin: 0;
-  font-family: 'Lacquer', cursive;
+  font-family: 'Lacquer' ;
 }
 p{
   font-family: 'Lacquer';
@@ -28,32 +29,45 @@ p{
   border-radius: 100%
 }
 
+
 .topContainer{
-  background-color: #E4F9F5;
+  background-color: #07689f;
   position: relative;
   padding-top: 100px;
 }
 
 .middleContainer {
-  margin: 100px 0;
+  background-color: #a2d5f2;
+  margin: 200px 0;
 }
 
 .bottomContainer {
-  background-color: #66BFBF;
+  background-color: #ff7e67;
   padding: 50px 0 20px;
 }
 
-.topCloud{
+.python{
+  max-width: 4rem;
+  height: auto;
   position: absolute;
-  right: 10em;
-  top: 7%;
+  right: 30%;
+  top: 3rem;
+}
+.Cpp{
+  max-width: 4rem;
+  height: auto;
+  position: absolute;
+  left: 30%;
+  margin-top: 0.5rem;
+}
+.programmer{
+  display: inline-block;
+  max-width:20rem;
+  height: auto;
+  margin-top: 3rem;
 }
 
-.bottomCloud{
-  position: absolute;
-  left: 10em;
-  margin-top: 3%;
-}
+
 #underline{
   text-decoration: underline overline;
 }
