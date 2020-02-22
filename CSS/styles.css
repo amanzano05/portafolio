@@ -58,7 +58,16 @@ h1{
 .middleContainer {
   font-family: 'Inconsolata';
   background-color: #a2d5f2;
-  padding: 10px;
+  padding-top: 10px;
+}
+.program{
+  max-width: 15%;
+  height: auto;
+  display: block;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90%;
 }
 
 .bottomContainer {
