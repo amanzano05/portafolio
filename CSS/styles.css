@@ -39,12 +39,15 @@ h1{
   position: absolute;
   left: 30%;
   margin-top: 0.5rem;
+  bottom: 11.5rem;
+
 }
 .programmer{
   display: inline-block;
-  max-width:20rem;
+  max-width:15rem;
   height: auto;
   margin-top: 3rem;
+  border-radius: 10%;
 }
 
 
