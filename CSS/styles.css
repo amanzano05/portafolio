@@ -1,0 +1,122 @@
+/*font-family: 'Lacquer', ;
+font-family: 'Trade Winds', ;
+font-family: 'Dancing Script', ;
+font-family: 'Indie Flower', ;
+font-family: 'Inconsolata',
+font-family: 'Raleway' ;;*/
+.my-navbar {
+  background: #07689f;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  background-color: #40514E;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.myPic {
+  display: block;
+  max-width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 100%
+}
+
+.myPicBrand {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%
+}
+
+.python {
+  max-width: 4rem;
+  height: auto;
+  position: absolute;
+  right: 30%;
+  top: 3rem;
+}
+
+.Cpp {
+  max-width: 4rem;
+  height: auto;
+  position: absolute;
+  left: 30%;
+  margin-top: 1rem;
+  bottom: 12.2rem;
+}
+
+.programmer {
+  display: inline-block;
+  max-width: 15rem;
+  height: auto;
+  margin-top: 3rem;
+  border-radius: 10%;
+}
+
+/* to aviod overlaping with the menu  */
+.dummieDiv {
+  position: relative;
+  top: -4rem;
+}
+
+.Aboutme {
+  background-color: #a2d5f2;
+  font-family: 'Inconsolata';
+  position: relative;
+  padding: 10rem 0 1rem;
+}
+
+.Projects {
+  background-color: #07689f;
+  font-family: 'Inconsolata';
+  padding: 2rem 0 1rem;
+}
+
+.Skills {
+  font-family: 'Inconsolata';
+  background-color: #a2d5f2;
+  padding: 2rem 0 1rem;
+}
+
+.program {
+  max-width: 15%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90%;
+}
+
+.Contact {
+  background-color: #ff7e67;
+  position: relative;
+  padding: 2rem 0 1rem;
+  font-family: 'Raleway';
+}
+
+.footer_links {
+  color: #07689f;
+  margin: 1rem 2rem;
+  font-size: 4rem;
+}
+
+a:hover {
+  color: #fafafa;
+}
+
+.copyright {
+  color: #fafafa;
+  padding: 1rem 0;
+  font-size: 0.75rem;
+}
+
+#underline {
+  text-decoration: underline overline;
+}
