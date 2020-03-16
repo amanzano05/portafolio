@@ -4,20 +4,22 @@ font-family: 'Dancing Script', ;
 font-family: 'Indie Flower', ;
 font-family: 'Inconsolata',
 font-family: 'Raleway' ;;*/
+.my-navbar {
+  background: #07689f;
+  text-align: left;
+}
 
-body{
+body {
   margin: 0;
   background-color: #40514E;
   text-align: center;
 }
-h1{
+
+h1 {
   margin: 0;
 }
 
-
-
-
-.myPic{
+.myPic {
   display: block;
   max-width: 10%;
   margin-left: auto;
@@ -26,76 +28,95 @@ h1{
   border-radius: 100%
 }
 
-.python{
+.myPicBrand {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%
+}
+
+.python {
   max-width: 4rem;
   height: auto;
   position: absolute;
   right: 30%;
   top: 3rem;
 }
-.Cpp{
+
+.Cpp {
   max-width: 4rem;
   height: auto;
   position: absolute;
   left: 30%;
-  margin-top: 0.5rem;
-  bottom: 11.5rem;
-
+  margin-top: 1rem;
+  bottom: 12.2rem;
 }
-.programmer{
+
+.programmer {
   display: inline-block;
-  max-width:15rem;
+  max-width: 15rem;
   height: auto;
   margin-top: 3rem;
   border-radius: 10%;
 }
 
-
-.topContainer{
-  background-color: #07689f;
-  font-family:'Inconsolata';
+/* to aviod overlaping with the menu  */
+.dummieDiv {
   position: relative;
-  padding-top: 100px;
+  top: -3rem;
 }
 
-.middleContainer {
+.Aboutme {
+  background-color: #a2d5f2;
+  font-family: 'Inconsolata';
+  position: relative;
+  padding: 10rem 0 1rem;
+}
+
+.Projects {
+  background-color: #07689f;
+  font-family: 'Inconsolata';
+  padding: 2rem 0 1rem;
+}
+
+.Skills {
   font-family: 'Inconsolata';
   background-color: #a2d5f2;
-  padding-top: 10px;
+  padding: 2rem 0 1rem;
 }
-.program{
+
+.program {
   max-width: 15%;
   height: auto;
   display: block;
-  position:relative;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   border-radius: 90%;
 }
 
-.bottomContainer {
+.Contact {
   background-color: #ff7e67;
   position: relative;
-  padding: 30px 0 10px;
+  padding: 2rem 0 1rem;
   font-family: 'Raleway';
-
 }
 
-.footer_links{
+.footer_links {
   color: #07689f;
-  margin:1rem 1.5rem;
+  margin: 1rem 1.5rem;
   font-size: 1rem;
 }
-a:hover{
+
+a:hover {
   color: #fafafa;
 }
-.copyright{
+
+.copyright {
   color: #fafafa;
   padding: 1rem 0;
   font-size: 0.75rem;
 }
 
-
-#underline{
+#underline {
   text-decoration: underline overline;
 }
