@@ -62,7 +62,7 @@ h1 {
 /* to aviod overlaping with the menu  */
 .dummieDiv {
   position: relative;
-  top: -3rem;
+  top: -5rem;
 }
 
 .Aboutme {
