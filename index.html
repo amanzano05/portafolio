@@ -4,13 +4,48 @@
 <head>
   <meta charset="utf-8">
   <title>Alfonso's Site</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="CSS/styles.css" />
   <link rel="icon" href="images/favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Inconsolata|Indie+Flower|Lacquer|Trade+Winds|Raleway&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="topContainer">
+<body data-spy="scroll" data-target=".navbar" data-offset="30">
+
+  <nav class="navbar my-navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img class="myPicBrand" src="images/Alfonso.jpeg" alt="Alfonso Manzano">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#me">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+  <!--to avoid overlaping with the menu -->
+  <div id="me" class="dummieDiv"></div>
+  </div>
+  <div class="Aboutme container-fluid">
     <img class="python " src="images/python.png" alt="cloud">
     <img class="myPic" src="images/Alfonso.jpeg" alt="Alfonso Manzano">
     <h1>I'm Alfonso.</h1>
@@ -19,13 +54,39 @@
     <img class="Cpp" src="images/cpp.png" alt="cloud">
     <img class="programmer" src="images/developer.gif" alt="programmer">
   </div>
-
-
-  <div class="middleContainer">
+  <!--to avoid overlaping with the menu -->
+  <div id="projects" class="dummieDiv"></div>
+  <div class="Projects container-fluid">
+    <h1>Projects</h1>
+    <p>a <span id="underline">Pro</span>grammer. </p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+  </div>
+  <!--to avoid overlaping with the menu -->
+  <div id="skills" class="dummieDiv"></div>
+  <div class="Skills container-fluid">
     <img class="program" src="images/program.gif" alt="program">
     <h1>My Skills.</h1>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
+    <p>Hello! I am a Software Developer based in Houston, Texas.</p>
   </div>
-  <div class="bottomContainer">
+  <!--to avoid overlaping with the menu -->
+  <div id="contact" class="dummieDiv"></div>
+  <div class="Contact container-fluid">
     <a class="footer_links" href="https://www.linkedin.com/in/amanzano05/" target="_blank">LinkedIn</a>
     <a class="footer_links" href="https://github.com/amanzano05" target="_blank">GitHub</a>
     <a class="footer_links" href="mailto:amanzano05@icloud.com" target="_top">Email</a>
@@ -35,3 +96,9 @@
 </body>
 
 </html>
+<!--to automatially close the menu -->
+<script>
+  $('.navbar-collapse a').click(function() {
+    $(".navbar-collapse").collapse('hide');
+  });
+</script>
